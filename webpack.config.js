@@ -1,30 +1,30 @@
 
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-	template: __dirname+'./app/index.html',
-	filename:'index.html',
-	inject: 'body'
+  template: __dirname+'./app/index.html',
+  filename:'index.html',
+  inject: 'body'
 });
 
 module.exports={
    entry: './app/index.jsx',
-	
+  
    output: {
       path:'./app',
       filename: './index.js',
    },
-	
+  
    devServer: {
       inline: true,
-      port: 6050,
+      port: 3000,
       historyApiFallback: {
             index: './app/index.html'
       }//Use to direct the page to index html while refresh the app
    },
-	
+  
    module: {
       loaders:[
-  			   {
+           {
               test: /\.jsx?$/,
               exclude: /node_modules/,
               loader: 'babel',
@@ -49,9 +49,13 @@ module.exports={
           }, {
             test: /\.json$/,
             loader: 'json-loader'
-          }
-			/*{test:/\.css$/,loader: 'style-loader'},
-			{test: /\.css$/,loader: 'css-loader',query: {modules: true,localIdentName: '[name]__[local]___[hash:base64:5]'}}*/
-		]
+          },
+          {
+            test: /\.scss$/,
+            loader: "style-loader!css-loader!sass-loader"
+        }
+      /*{test:/\.css$/,loader: 'style-loader'},
+      {test: /\.css$/,loader: 'css-loader',query: {modules: true,localIdentName: '[name]__[local]___[hash:base64:5]'}}*/
+    ]
    }
 };
