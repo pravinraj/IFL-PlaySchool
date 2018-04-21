@@ -1,0 +1,21 @@
+.home-wrapper{
+	padding: 0;
+	.slideshow{
+		position: relative;
+		.wordings{
+			position: absolute;
+			top: 35%;
+    		left: 12%;
+    		div:first-child{
+    			background-color: #00C853;
+    			padding: 0.5em;
+    			h1{
+    				color: #fff;
+    				font-family: "Lucida Console", Monaco, monospace;
+    				font-weight: 600;
+    			}
+    		}
+		}
+	}
+
+}

@@ -22,7 +22,8 @@
     "react-dom": "^15.5.4",
     "react-iframe": "^1.1.0",
     "react-loader": "^2.4.0",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "react-slideshow-image": "^0.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
