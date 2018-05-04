@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Link,NavLink } from "react-router-dom";
  import Home from '../container/Home.jsx';
-import Submit from '../container/Submit.jsx';
+import About from '../container/About.jsx';
 import React from 'react';
 
 
@@ -9,7 +9,7 @@ class Routes extends React.Component {
 		return(
 			  <div>
 			  	<Route exact path="/" component={Home} />
-		      	<Route  exact path="/submit" component={Submit} history={history}/>
+		      	<Route  exact path="/submit" component={About} history={history}/>
 		      </div>
 		);
 	}

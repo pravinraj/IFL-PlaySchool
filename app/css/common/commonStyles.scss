@@ -2,54 +2,69 @@ body{
 	background-color: #F3E5F5 !important;
 }
 
+::-webkit-scrollbar{
+	width: 0.34em;
+	border-radius: 2em;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #afafaf;
+	outline: 1px solid #eaeaea;
+	border-radius: 2em;
+}
 .app-header{
 	padding: 0 !important;
-	.app-nav-bar{
-		min-height: 74px !important;
-		background-color: #9C27B0;
-		border-color: #9C27B0;
-		margin: 0;
+	.header-contact-details{
+		background-color: #615b47;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 600;
+    	color: #fff;
+		font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
 	}
+	.app-header-nav-bar{
+		padding: 0;
+		.app-nav-bar{
+			min-height: 74px !important;
+			border-color: #ff8f00;
+			margin: 0;
+			background: linear-gradient(to right, #ff8f00,#ffe082 );
+			border-radius: 0;
+		}
 
-	.navbar-brand{
-		height: 66px !important;
-		img{
-			height: 2.5em;
+		.navbar-brand{
+			height: 66px !important;
+			img{
+				height: 2.5em;
+			}
+		}
+		.app-menu-wrapper{
+			padding-left: 5em;
+			li>a{
+			   padding-top: 26px !important;
+			}
+			li>a>a{
+				font-size: 18px;
+			}
+			li>a>a[aria-current="false"]{
+				text-decoration: none;
+				color: #9d9d9d;
+				font-size: 18px;
+				font-family: "Comic Sans MS", cursive, sans-serif;
+			}
+			li>a>a[aria-current='true']{
+				color: #fff !important;
+		    	text-decoration: none;
+		    	font-size: 18px;
+		    	color: #424242;
+	    		font-family: "Comic Sans MS", cursive, sans-serif;
+			}
+			li>a>a:hover{
+				font-weight: 600;
+	    		font-family: "Comic Sans MS", cursive, sans-serif;
+				color: #fff !important;
+				vertical-align: text-top;
+			}
 		}
 	}
-	.app-menu-wrapper{
-		padding-left: 5em;
-		/* li:hover{
-			background-color: #CE93D8;
-		} */
-		li>a{
-		   padding-top: 26px !important;
-		}
-		li>a>a{
-			font-size: 18px;
-		}
-		li>a>a[aria-current="false"]{
-			text-decoration: none;
-			color: #9d9d9d;
-			font-size: 18px;
-			font-family: "Comic Sans MS", cursive, sans-serif;
-		}
-		li>a>a[aria-current='true']{
-			color: #fff !important;
-	    	text-decoration: none;
-	    	font-size: 18px;
-    		background-color: #9C27B0;
-    		font-family: "Comic Sans MS", cursive, sans-serif;
-		}
-		li>a>a:hover{
-			/* border-bottom: 1px solid #fff; */
-			font-weight: 600;
-    		font-family: "Comic Sans MS", cursive, sans-serif;
-			color: #fff !important;
-			vertical-align: text-top;
-		}
-		/* li>a>a[aria-current='true']:hover, li>a>a[aria-current="false"]:hover {
-			background-color: #CE93D8;
-		} */
-	}
+	
 }
