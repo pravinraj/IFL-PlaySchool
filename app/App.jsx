@@ -32,6 +32,9 @@ class App extends React.Component {
 							<Nav className='app-menu-wrapper'>
 								<NavItem><NavLink exact activeClassName='activeNav' to='/'>Home</NavLink></NavItem>
 								<NavItem><NavLink exact activeClassName='activeNav' to='/submit'>About</NavLink></NavItem>
+								<NavItem><NavLink exact activeClassName='activeNav' to='/events'>Events</NavLink></NavItem>
+								<NavItem><NavLink exact activeClassName='activeNav' to='/admissions'>Admissions</NavLink></NavItem>
+								<NavItem><NavLink exact activeClassName='activeNav' to='/contact'>Contact Us</NavLink></NavItem>
 							</Nav>
 						</Navbar.Collapse>
 					</Navbar>
