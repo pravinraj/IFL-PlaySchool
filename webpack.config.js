@@ -21,7 +21,10 @@ module.exports={
             index: './app/index.html'
       }//Use to direct the page to index html while refresh the app
    },
-  
+    devtool: 'source-map',
+    target: 'web',
+    cache: true,
+    debug: true,
    module: {
       loaders:[
            {

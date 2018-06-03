@@ -23,7 +23,7 @@ class Home extends React.Component {
 		return(
 			<Col xs={12} className='home-wrapper'>
 				<div>
-					<Col xs={12} className='slideshow'>
+					{<Col xs={12} className='slideshow'>
 						<Fade
 				          images={this.state.images}
 				          duration={5000}
@@ -40,55 +40,55 @@ class Home extends React.Component {
 			        			<h4 onClick={()=>{this.props.history.push('/events')}}>Read More >></h4>
 			        		</div>
 			        	</div>
-			        </Col>
+			        </Col>}
 		        </div>
 		        <Col xs={12} className='home-special'>
 		        	<Col xs={12} className='home-special-offer'>
 		        		<p>What We Offer At Fun Toddz</p>
-		        		<p>At the Austin Children’s Academy we strive to offer a full range of educational, care, and enrichment options for young families. These include time-customizable care for infants and toddlers, Montessori-based preschool and private kindergarten, as well as after-hours care and tutoring programs including transportation for grade schoolers. Our goal is to provide a welcoming and academically stimulating environment that feels like a home-away-from home.</p>
+		        		<p>At Fun Toddz, we strive to offer a full range of educational, care and enrichment options for young families. These include time-customizable care for toddlers, Play Gym and Montessori-based preschool, as well as after-hours care and 'Me time' for parents at secured environment. Our goal is to provide a welcoming and academically stimulating environment that feels like a home-away-from home.</p>
 		        	</Col>
 		        	<Col xs={12} className='play-school-programmes'>
 		        		<Col xs={4}>
 		        			<Thumbnail src='../img/home/block1.png' alt='242x200'>
-				        		<p>Infants 3 mos to 18 mos</p>
-				        		<p>These early months are crucial for cognitive, sensory, and motor skill development, all of which best occurs in an atmosphere of safe, warm, loving trust. Our caregiver’s first objective is to nurture those bonds by responding to each child’s needs as they arise. Feeling comforted and confident, your child will venture forward to explore their brave new world.</p>
-				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/events')}}>LEARN MORE >> </Button>
+				        		<p>Crèche/Daycare</p>
+				        		<p>We provide daycare facility to your child from 8am to 8pm.  Our daycare service starts from 6months for a child. A working mother can restart her career after her maternity leave with a complete assurance that her child is in a loved, safe and secure environment.</p>
+				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/programs/daycare')}}>LEARN MORE >> </Button>
 				      		</Thumbnail>
 		        		</Col>
 			        	<Col xs={4}>
 			        		<Thumbnail src='../img/home/block2.png' alt='242x200'>
-				        		<p>Toddler 18 mos to 3 yrs</p>
-				        		<p>Active toddlers experience meteoric cognitive and motor-skill growth during their time in our customized, toddler-safe Cedar Park preschool classrooms. In this program, you’ll witness him or her becoming more independent, self-reliant, and socially adept. More importantly, they will develop the confidence to follow the path of his curiosity and embrace a love of learning.</p>
-				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/events')}}>LEARN MORE >> </Button>
+				        		<p>Montessori School</p>
+				        		<p>Fun Toddz Montessori school service starts for children above 2years. At our Montessori school, we follow learning through Dr. Montessori’s teaching. Our curriculum is designed in such a way that it develops sensory, language, cognitive, fine and gross motor skills in children.</p>
+				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/programs/montessori')}}>LEARN MORE >> </Button>
 				      		</Thumbnail>
 			        	</Col>
 			        	<Col xs={4}>
 			        		<Thumbnail src='../img/home/block3.png' alt='242x200'>
-				        		<p>Primary 3 yrs to 6 yrs</p>
-				        		<p>One of the unique features of a Montessori school is multi-age classrooms. Older students model appropriate behavior and guide their younger peers, all while making academic advancements of their own. Studies have shown that the Montessori Method provides a solid academic basis as well as exceptional social skills that prepare children well for kindergarten.</p>
-				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/events')}}>LEARN MORE >> </Button>
+				        		<p>Play Gym</p>
+				        		<p>We provide play gym services for babies from 3 months to kid’s up to 5 yrs of age. For babies from 3 months to 1.5yrs, a mother-child program is conducted every alternate day.We have the newest play equipments which let the child play in a very safe environment.</p>
+				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/programs/playgym')}}>LEARN MORE >> </Button>
 				      		</Thumbnail>
 			        	</Col>
 		        	</Col>
 		        	<Col xs={12} className='play-school-programmes'>
 		        		<Col xs={4}>
 		        			<Thumbnail src='../img/home/block4.png' alt='242x200'>
-				        		<p>Private Kindergarten In Cedar Park</p>
-				        		<p>Kindergarten is a pivotal year. Here at ACA, our Montessori-certified teachers introduce academic subjects such as language arts, math, Spanish, science, social studies, and geography. But we also focus on the qualities that will serve your child throughout life, such as kindness, empathy, determination, self-reliance, initiative, and most of all, an innate love of learning.</p>
-				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/events')}}>LEARN MORE >> </Button>
+				        		<p>Post School Activities</p>
+				        		<p>Kids from any age group can be enrolled in our after school activity program. Our after school activity includes Story telling session, Puppet theatre, Outdoor activities such as gardening, water pool, mud play and lot more, Self Defense Classes, Handwriting, Phonetics</p>
+				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/programs/post-school-activities')}}>LEARN MORE >> </Button>
 				      		</Thumbnail>
 		        		</Col>
 			        	<Col xs={4}>
 			        		<Thumbnail src='../img/home/block5.png' alt='242x200'>
-				        		<p>After-School Pick Up and Tutoring</p>
-				        		<p>Not all after-hours child care programs are the same. At ACA, we offer a transportation service that will deliver children door-to-door from grade school to ACA. Once here, they enjoy free play, a healthy snack, and rotating enrichment programs. Montessori-certified teachers are also on hand during tutoring hour should your child need homework help.</p>
-				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/events')}}>LEARN MORE >> </Button>
+				        		<p>‘Me Time’ for Parents</p>
+				        		<p>Yes, we do that too  . You have to run some errands, have a movie to catch up or just need to get some extra hours of sleep or some time with your friends or partners – Do not feel guilty . Enroll your child in either our play gym program or ‘after school activities’ for few hours.</p>
+				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/programs/me-time')}}>LEARN MORE >> </Button>
 				      		</Thumbnail>
 			        	</Col>
 			        	<Col xs={4}>
 			        		<Thumbnail src='../img/home/block6.png' alt='242x200'>
-				        		<p>Part-time/Summer Programs</p>
-				        		<p>Are your children interested in coding? Archeology? Puzzles? Puppet Making? Gardening? ACA offers dozens of part-time and summer programs to feed any child’s wildest interests. Flexible planning means you can choose 2-day, 3-day, or 5-day programs as well as half-day (8:30 am – 12 noon), full-day, or extended days (7:30 am – 6:00 pm).</p>
+				        		<p>Summer Programs</p>
+				        		<p>Are your children interested in coding? Archeology? Puzzles? We offers dozens of summer programs to feed any child’s wildest interests. You can choose 2-day, 3-day or 5-day programs as well as half-day (8:30 am – 12 noon), full-day or extended days (7:30 am – 6:00 pm).</p>
 				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/events')}}>LEARN MORE >> </Button>
 				      		</Thumbnail>
 			        	</Col>
@@ -97,7 +97,7 @@ class Home extends React.Component {
 		        <Col xs={12} className='home-enroll'>
 		        	<Col xs={10}>
 		        		<p>How To Enroll Your Child In A class ?</p>
-		        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+		        		<p>To enroll young Toddlers at Fun Toddz, please visit our Fun Toddz and contact us</p>
 		        	</Col>
 		        	<Col xs={2}>
 		        		<Button bsStyle='info' onClick={()=>{this.props.history.push('/contact')}}><span>Contact Now >></span></Button>
@@ -106,20 +106,16 @@ class Home extends React.Component {
 		        <Col xs={12} className='home-footer'>
 		        	<Col xs={4}>
 		        		<p>Our Programs</p>
-		        		<Col xs={12} className='program-list'>
-		        			<Col xs={3}>
-		        				<Button bsStyle='success' onClick={()=>{this.props.history.push('/events')}}>I</Button>
-		        				<p>Infant</p>
-		        			</Col>
-		        			<Col xs={3}>
+		        		<Col xs={12} className='program-list'>		        			
+		        			<Col xs={4}>
 		        				<Button bsStyle='success' onClick={()=>{this.props.history.push('/events')}}>T</Button>
 		        				<p>Toddler</p>
 		        			</Col>
-		        			<Col xs={3}>
+		        			<Col xs={4}>
 		        				<Button bsStyle='success' onClick={()=>{this.props.history.push('/events')}}>K</Button>
 		        				<p>Kindergarten</p>
 		        			</Col>
-		        			<Col xs={3}>
+		        			<Col xs={4}>
 		        				<Button bsStyle='success' onClick={()=>{this.props.history.push('/events')}}>C</Button>
 		        				<p>Camps</p>
 		        			</Col>
@@ -140,11 +136,11 @@ class Home extends React.Component {
 		        		<p>Contact Us</p>
 		        		<div className='mail-us'>
 			        		<span></span>
-			        		<span>pravinraj87@gmail.com</span>
+			        		<span>funtoddz@gmail.com</span>
 		        		</div>
 		        		<div className='address-us'>
 		        			<span></span>
-		        			<span>No 85/95, S.S.Anugraham Flats, Muniappan Street, Perambur, Chennai-600011</span>
+		        			<span>No 4/2, Subramanian Street, Perambur, Chennai-600011</span>
 		        		</div>
 		        	</Col>
 		        </Col>
