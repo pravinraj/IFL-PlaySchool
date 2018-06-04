@@ -67,11 +67,11 @@ class App extends React.Component {
 						          noCaret
 						          
 								  eventKey={3} title="Programs" id="basic-nav-dropdown">
-									<NavLink exact activeClassName='activeNav' to='/programs/daycare'><MenuItem className='dropdown-content' eventKey={3.1}>Day Care</MenuItem></NavLink>
-	      							<NavLink exact activeClassName='activeNav' to='/programs/montessori'><MenuItem className='dropdown-content' eventKey={3.2}>Montessori</MenuItem></NavLink>
-	      							<NavLink exact activeClassName='activeNav' to='/programs/playgym'><MenuItem className='dropdown-content' eventKey={3.2}>Play Gym</MenuItem></NavLink>
-	      							<NavLink exact activeClassName='activeNav' to='/programs/post-school-activities'><MenuItem className='dropdown-content' eventKey={3.2}>Post School Activities</MenuItem></NavLink>
-	      							<NavLink exact activeClassName='activeNav' to='/programs/me-time'><MenuItem className='dropdown-content' eventKey={3.2}>Me time</MenuItem></NavLink>
+									<MenuItem className='dropdown-content' eventKey={3.1}><NavLink exact activeClassName='activeNav' to='/programs/daycare'>Day Care</NavLink></MenuItem>
+	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/montessori'>Montessori</NavLink></MenuItem>
+	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/playgym'>Play Gym</NavLink></MenuItem>
+	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/post-school-activities'>Post School Activities</NavLink></MenuItem>
+	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/me-time'>Me time</NavLink></MenuItem>
 								</NavDropdown>
 								{/*<NavItem><NavLink exact activeClassName='activeNav' to='/submit'>About</NavLink></NavItem>*/}
 								
