@@ -51,8 +51,8 @@ class App extends React.Component {
 						    <Navbar.Brand>
 						      <a className='app-logo' onClick={(e)=>{e.preventDefault();this.props.history.push('/')}}>
 						      	<img src='../img/logo-3.png' className='logo-img'/>
-						      	{/*<span className='fun-toddz'>Fun-Toddz</span>*/}
 						      </a>
+						      <div className='fun-toddz'>Fun-Toddz</div>
 						    </Navbar.Brand>
 						    <Navbar.Toggle />
 						</Navbar.Header>

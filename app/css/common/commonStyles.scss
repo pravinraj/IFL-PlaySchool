@@ -7,6 +7,17 @@
 	outline: 1px solid #eaeaea;
 	border-radius: 2em;
 }
+
+::-moz-scrollbar{
+	width: 0.34em;
+	border-radius: 2em;
+}
+
+::-moz-scrollbar-thumb{
+	background-color: #afafaf;
+	outline: 1px solid #eaeaea;
+	border-radius: 2em;
+}
 .app-header{
 	padding: 0 !important;
 	.header-contact-details{
@@ -33,13 +44,16 @@
 				height: auto;
 				width: 15%;
 				display: inline-block;
+				margin-bottom: 11px;
 			}
 			.fun-toddz{
 				display: inline-block;
-			    font-size: 23px;
+			    font-size: 31px;
 			    vertical-align: bottom;
 			    line-height: 4em;
 			    color: #424242;
+			    font-family: 'Aladin';
+    			font-weight: 700;
 			}
 		}
 		.app-menu-wrapper{
