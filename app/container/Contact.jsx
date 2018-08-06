@@ -11,7 +11,11 @@ class Contact extends React.Component {
 
 	render(){
 		return(
-			<Col xs={12}>Contact page</Col>
+			<Col xs={12} className='contact-us-wrapper'>
+				<Col xs={12} className='contact-us-title'>
+			  		<p>How To Reach Us</p>
+			  	</Col>
+			</Col>
 		);
 	}
 }

@@ -45,7 +45,7 @@
 			    }
 			    .about-services-contents{
 			    	display: inline-block;
-			    	width: 90%;
+			    	width: 86%;
 			    }
 			    .about-services-contents:hover{
 			    	cursor: pointer;
@@ -53,5 +53,57 @@
 			    }
 		    }
 		}
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.about-wrapper{
+		[class*="col-"] {
+		    width: 100%;
+		}
+		.about-contents{
+			margin-bottom: 1em;
+			.about-contents-image{
+				background-image: url(../img/about.png);
+			    background-repeat: no-repeat;
+			    background-size: 22em;
+			    background-position: 0;
+			    padding-top: 1em;
+			}
+			.about-contents-data{
+	    		font-size: 14px;
+			    font-family: "Comic Sans MS", cursive, sans-serif;
+			    line-height: 1.5;
+			    font-weight: 500;
+			    padding-top: 1em;
+			    .about-services {
+			    	padding: 0;
+			    	p{
+	    	    		font-size: 14px;
+	    			    font-family: "Comic Sans MS", cursive, sans-serif;
+	    			    line-height: 1.5;
+	    			    font-weight: 600;
+			    	}
+			    	.about-services-list-type{
+				    	background-image: url(../img/palm.png);
+				    	background-repeat: no-repeat;
+				    	background-size: 1em;
+					    padding: 1em;
+					    display: inline-block;
+					    width: 2%;
+					    background-position-y: 1em;
+				    }
+				    .about-services-contents{
+				    	display: inline-block;
+				    	width: 84%;
+				    }
+				    .about-services-contents:hover{
+				    	cursor: pointer;
+				    	color: #1976d2;
+				    }
+			    }
+			}
+		}
+
 	}
 }

@@ -1,0 +1,65 @@
+.me-time-wrapper{
+	background: url(../img/home/home-special.png);
+	padding: 0;
+	.me-time-title{
+		font-size: 24px;
+	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    line-height: 2;
+	    margin-top: 1em;
+	    border-bottom: 1px solid #cfd8dc;
+	    color: #37474f;
+	    text-align: center;
+	}
+	.me-time-content{
+		background-image: url(../img/programs/sky.png);
+		padding: 2em;
+		height: auto;
+	    background-size: cover;
+	    overflow: hidden;
+		.me-time-description{
+			p{
+				text-align: justify;
+			    color: #fff;
+			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    line-height: 2;
+			}
+			p:last-child{
+				font-weight: 700;
+    			font-style: italic;
+			}
+		}
+		.me-time-gallery{
+			.me-time-gallery-title{				
+				font-size: 20px;
+			    font-family: "Comic Sans MS", cursive, sans-serif;
+			    line-height: 2;
+			    margin-top: 1em;
+			    color: #fff;
+			    text-align: left;
+			    font-weight: 400;				
+			}
+			.me-time-gallery-files{
+				.thumbnail{
+	    			border-radius: 3em;
+    				width: 86%;
+    				img{
+    					border-radius: 3em;
+    				}
+	    		}
+	    		.thumbnail:hover{
+	    			cursor: pointer;
+	    			z-index: 1;
+	    			position: absolute;
+	    			animation-name: play-gym-gallery-hover;
+	    			animation-duration: 4s;
+	    			animation-timing-function: ease;
+	                animation-iteration-count: 1;
+	                @keyframes play-gym-gallery-hover{
+	                	from {width: 86%}
+	                	to{width: 92%}
+	                }
+	    		}
+			}
+		}
+	}
+}

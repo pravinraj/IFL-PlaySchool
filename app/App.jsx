@@ -49,10 +49,10 @@ class App extends React.Component {
 					<Navbar inverse collapseOnSelect className='app-nav-bar'>
 						<Navbar.Header>
 						    <Navbar.Brand>
-						      <a className='app-logo' onClick={(e)=>{e.preventDefault();this.props.history.push('/')}}>
+						      <a href='#' className='app-logo'>
 						      	<img src='../img/logo-3.png' className='logo-img'/>
 						      </a>
-						      <div className='fun-toddz'>Fun-Toddz</div>
+						      {/*<div className='fun-toddz'>Fun-Toddz</div>*/}
 						    </Navbar.Brand>
 						    <Navbar.Toggle />
 						</Navbar.Header>

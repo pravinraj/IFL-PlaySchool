@@ -19,10 +19,12 @@
     			animation-duration: 4s;
     			animation-timing-function: ease;
                 animation-iteration-count: 1;
-    			h1{
+    			p{
     				color: #fff;
     				font-family: "Lucida Console", Monaco, monospace;
     				font-weight: 600;
+                    font-size: 2.5em;
+                    margin-bottom: 0;
     			}
     			@keyframes first-wording{
     				from {transform: rotateX(90deg);}
@@ -38,10 +40,13 @@
                 animation-duration: 4s;
                 animation-timing-function: ease;
                 animation-iteration-count: 1;
-                h2{
+                p{
                     color: #fff;
                     font-family: "Lucida Console", Monaco, monospace;
                     font-weight: 600;
+                    margin-bottom: 0;
+                    font-size: 2em;
+                    padding-left: 0.2em;
                 }
                 @keyframes second-wording{
                     from {transform: skewY(20deg);}
@@ -50,20 +55,22 @@
             }
             div:last-child{
                 background-color: #ff6f00;
-                width: 40%;
-                margin-top: 3em;
+                display: inline-block;
+                margin-top: 2em;
                 text-align: center;
-                padding: 0.05em;
+                padding: 0.35em;
                 border-radius: 1em;
                 cursor: pointer;
                 animation-name: third-wording;
                 animation-duration: 4s;
                 animation-timing-function: ease;
                 animation-iteration-count: 1;
-                h4{
+                p{
                     color: #fff;
                     font-family: "Lucida Console", Monaco, monospace;
                     font-weight: 600;
+                    margin-bottom: 0;
+                    font-size: 1.2em;
                 }
                 @keyframes third-wording{
                     from {transform: translate(50px,0);}
@@ -80,6 +87,93 @@
                     50% {opacity: 0.5}
                     75% {opacity: 0.8}
                     100% {opacity: 1}
+                }
+            }
+            @media only screen and (max-width: 600px) {
+                div:first-child{
+                    p{
+                        font-size: 0.7em;
+                    }
+                }
+                div:nth-child(2){
+                    margin-top: 1em;
+                    p{
+                        font-size: 0.8em;
+                    }
+                }
+                div:last-child{
+                    margin-top: 1em;
+                    p{
+                        font-size: 0.6em;   
+                    }
+                }
+            }
+            @media only screen and (min-width: 600px) {
+                div:first-child{
+                    p{
+                        font-size: 1em;
+                    }
+                }
+                div:nth-child(2){
+                    p{
+                        font-size: 1em;
+                    }
+                }
+                div:last-child{
+                    p{
+                        font-size: 0.7em;   
+                    }
+                }
+            }
+            @media only screen and (min-width: 768px) {
+                div:first-child{
+                    p{
+                        font-size: 1.4em;
+                    }
+                }
+                div:nth-child(2){
+                    p{
+                        font-size: 1.3em;
+                    }
+                }
+                div:last-child{
+                    p{
+                        font-size: 1.2em;   
+                    }
+                }
+            }
+            @media only screen and (min-width: 992px) {
+                div:first-child{
+                    p{
+                        font-size: 2em;
+                    }
+                }
+                div:nth-child(2){
+                    p{
+                        font-size: 2em;
+                    }
+                }
+                div:last-child{
+                    p{
+                        font-size: 1.5em;   
+                    }
+                }
+            }
+            @media only screen and (min-width: 1200px) {
+                div:first-child{
+                    p{
+                        font-size: 2em;
+                    }
+                }
+                div:nth-child(2){
+                    p{
+                        font-size: 2em;
+                    }
+                }
+                div:last-child{
+                    p{
+                        font-size: 1.2em;   
+                    }
                 }
             }
 		}
@@ -103,11 +197,18 @@
             }
         }
         .play-school-programmes{
+            
             .thumbnail {
                 margin-top: 19px;
                 padding: 0;
                 width: 96%;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                >img{
+                    width: 100%;
+                }
+                a>img{
+                    width: 100%;
+                }
                 .caption{
                    background-color: #cddc39;
                    p:first-child{
@@ -156,7 +257,6 @@
                 font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
                 font-size: 40px;
                 font-weight: 700;
-                line-height: 3;
                 margin-bottom: 4px;
             }
             p:last-child{
@@ -169,7 +269,7 @@
         div:last-child{
             button{
                 margin-top: 4em;
-                font-size: 20px;
+                margin-bottom: 1em;                
                 font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
             }
             button:hover, button:focus{                
@@ -243,6 +343,9 @@
             }
             .social-media-link{
                 div{
+                    a:focus, .btn:focus{
+                        outline: none;
+                    }
                     button{
                         border-radius: 50%;
                         font-family: Architects Daughter,cursive;
@@ -255,9 +358,13 @@
                     button:hover, button:focus{
                         font-weight: 800;
                         font-size: 16px;
+                        outline: none;
                     }
                 }
                 .twitter-link{
+                    a:focus, .btn:focus{
+                        outline: none;
+                    }
                     button{
                         border-radius: 50%;
                         background-color: #fff;
@@ -274,6 +381,7 @@
                     button:hover, button:focus{
                         background-size: 1.9em;
                         padding-left: 0.5em;
+                        outline: none;
                     }
                 }
             }
@@ -306,7 +414,7 @@
                     background-size: 2.2em;
                     background-position-y: 1.5em;
                     display: inline-block;
-                    width: 15%;
+                    width: 8%;
                 }
                 span:nth-child(2){
                     color: #fff;
@@ -314,6 +422,7 @@
                     font-size: 14px;
                     display: inline-block;
                     width: 80%;
+                    vertical-align: super;
                 }
             }
         }

@@ -1,0 +1,112 @@
+.montessori-wrapper{
+	background: url(../img/home/home-special.png);
+	padding: 0;
+	.montessori-title{
+		font-size: 24px;
+	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    line-height: 2;
+	    margin-top: 1em;
+	    border-bottom: 1px solid #cfd8dc;
+	    color: #37474f;
+	    text-align: center;
+	}
+	.montessori-content{
+		background-image: url(../img/programs/sky.png);
+		padding: 2em;
+		height: auto;
+	    background-size: cover;
+	    overflow: hidden;
+	    .montessori-description{
+	    	p{
+				text-align: justify;
+			    color: #fff;
+			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    line-height: 2;
+			    span{
+			    	font-weight: 700;
+    				font-style: italic;
+			    }
+			}
+			.montessori-list-type{
+				background-image: url(../img/palm.png);
+		    	background-repeat: no-repeat;
+		    	background-size: 1em;
+			    padding: 1em;
+			    display: inline-block;
+			    width: 2%;
+			    background-position-y: 1em;
+			}
+			.montessori-list-content{
+				display: inline-block;
+			   	width: 86%;
+			   	text-align: justify;
+			    color: #fff;
+			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    line-height: 2;
+			}
+	    }
+	    .montessori-gallery{
+	    	.montessori-gallery-title{
+	    		font-size: 20px;
+			    font-family: "Comic Sans MS", cursive, sans-serif;
+			    line-height: 2;
+			    margin-top: 1em;
+			    color: #fff;
+			    text-align: left;
+			    font-weight: 400;
+	    	}
+	    	.montessori-gallery-files{
+	    		.thumbnail{
+	    			border-radius: 3em;
+    				width: 86%;
+    				img{
+    					border-radius: 3em;
+    				}
+	    		}
+	    		.thumbnail:hover{
+	    			cursor: pointer;
+	    			z-index: 1;
+	    			position: absolute;
+	    			animation-name: montessori-gallery-hover;
+	    			animation-duration: 4s;
+	    			animation-timing-function: ease;
+	                animation-iteration-count: 1;
+	                @keyframes montessori-gallery-hover{
+	                	from {width: 86%}
+	                	to{width: 92%}
+	                }
+	    		}
+	    	}
+	    }
+	    /* .montessori-content-1{
+	    	width: 100%;
+	    	border-radius: 1em;
+    		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	    }	    
+	    .montessori-content-2{
+	    	p{
+	    		text-align: justify;
+			    color: #fff;
+			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    line-height: 2;
+	    	}
+	    	.montessori-list-type{
+	    		background-image: url(../img/palm.png);
+		    	background-repeat: no-repeat;
+		    	background-size: 1em;
+			    padding: 1em;
+			    display: inline-block;
+			    width: 2%;
+			    background-position-y: 1em;
+	    	}
+	    	.montessori-list-content{
+	    		display: inline-block;
+			   	width: 86%;
+			   	text-align: justify;
+			    color: #fff;
+			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    line-height: 2;
+	    	}
+	    } */
+	}
+}

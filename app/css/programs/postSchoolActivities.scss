@@ -1,0 +1,78 @@
+.after-school-activities-wrapper{
+	background: url(../img/home/home-special.png);
+	padding: 0;
+	.after-school-activities-title{
+		font-size: 24px;
+	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    line-height: 2;
+	    margin-top: 1em;
+	    border-bottom: 1px solid #cfd8dc;
+	    color: #37474f;
+	    text-align: center;
+	}
+	.after-school-activities-content{
+		background-image: url(../img/programs/sky.png);
+		padding: 2em;
+		height: auto;
+	    background-size: cover;
+	    overflow: hidden;
+		.after-school-activities-description{
+			p{
+				text-align: justify;
+			    color: #fff;
+			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    line-height: 2;
+			}
+			.after-school-activities-list-type{
+				background-image: url(../img/palm.png);
+		    	background-repeat: no-repeat;
+		    	background-size: 1em;
+			    padding: 1em;
+			    display: inline-block;
+			    width: 2%;
+			    background-position-y: 1em;
+			}
+			.after-school-activities-list-content{
+				display: inline-block;
+			   	width: 86%;
+			   	text-align: justify;
+			    color: #fff;
+			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    line-height: 2;
+			}
+		}
+		.after-school-activities-gallery{
+			.after-school-activities-gallery-title{
+				font-size: 20px;
+			    font-family: "Comic Sans MS", cursive, sans-serif;
+			    line-height: 2;
+			    margin-top: 1em;
+			    color: #fff;
+			    text-align: left;
+			    font-weight: 400;
+			}
+			.after-school-activities-gallery-files{
+				.thumbnail{
+	    			border-radius: 3em;
+    				width: 86%;
+    				img{
+    					border-radius: 3em;
+    				}
+	    		}
+	    		.thumbnail:hover{
+	    			cursor: pointer;
+	    			z-index: 1;
+	    			position: absolute;
+	    			animation-name: play-gym-gallery-hover;
+	    			animation-duration: 4s;
+	    			animation-timing-function: ease;
+	                animation-iteration-count: 1;
+	                @keyframes play-gym-gallery-hover{
+	                	from {width: 86%}
+	                	to{width: 92%}
+	                }
+	    		}
+			}
+		}
+	}
+}
