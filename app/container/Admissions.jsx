@@ -11,7 +11,11 @@ class Admissions extends React.Component {
 
 	render(){
 		return(
-			<Col xs={12}>Admissions page</Col>
+			<Col xs={12} className='admission-wrapper'>
+				<Col xs={12} className='admission-title'>
+					<p>Admission & Acadamics</p>
+				</Col>				
+			</Col>
 		);
 	}
 }

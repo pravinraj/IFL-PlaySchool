@@ -10,4 +10,148 @@
 	    color: #37474f;
 	    text-align: center;
 	}
+	.contact-us-content-wrapper{
+		background-image: url(../img/home/gallary-background.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		.contact-us-content-title{			
+			color: #fff;
+			font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			text-align: center;
+			margin-top: 1em;
+			p:first-child{
+				font-size: 20px;
+				span{
+					font-size: 23px;
+				}
+			}
+			p:nth-child(2){
+				font-size: 15px;
+			}
+		}
+		.contact-us-box{
+			margin-top: 2em;
+			margin-bottom: 2em;
+			.name-box{
+				margin-bottom: 2em;
+				.form-control{
+					width: 63%;
+					margin: 0 auto;
+				}
+			}
+			.textarea{
+				.form-control{
+					width: 63%;
+					margin: 0 auto;
+					height: 90px;
+				}
+			}
+			.alert-message{
+				text-align: center;
+    			color: #d20000;
+    			font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			}			
+			.btn {
+				display: block;
+				margin: 0 auto;
+				margin-top: 2em;
+				a{
+					color: #fff;
+				}
+				a:hover,a:visited,a:focus{
+					text-decoration: none;
+				}
+
+			}
+			.btn:focus{
+				outline: none;
+			}
+		}
+		.contact-us-details{
+			margin-top: 1em;
+			.address-details{
+				span:first-child{
+					display: inline-block;
+					a{
+						background-image: url(../img/contactUs/location.png);
+						background-repeat: no-repeat;
+						background-size: 2em;
+						background-position-y: 0;
+						padding: 1em;
+					}					
+					width: 12%;					
+				}
+				span:nth-child(2){
+					display: inline-block;
+					color: #fff;
+					width: 88%;
+				}
+			}
+			.mail-details{
+				margin-top: 1em;
+				span:first-child{
+					a{
+						background-image: url(../img/home/mail-icon.png);
+	                    background-repeat: no-repeat;
+	                    padding: 1.5em;
+	                    background-size: 2em;
+	                    background-position-y: 1.8em;
+					}					
+                    display: inline-block;
+                    width: 12%;
+				}
+				span:nth-child(2){
+					display: inline-block;
+					color: #fff;
+					vertical-align: top;
+    				margin-top: 11px;
+    				width: 88%;
+				}
+			}
+			.phone-details{
+				margin-top: 1em;
+				span:first-child{
+					background-image: url(../img/contactUs/phone.png);
+                    background-repeat: no-repeat;
+                    padding: 1.2em;
+                    background-size: 2em;
+                    background-position-y: 0.3em;
+                    display: inline-block;
+                    width: 12%;
+				}
+				span:nth-child(2){
+					display: inline-block;
+					color: #fff;
+					vertical-align: top;    				
+    				width: 82%;
+    				margin-top: 7px;
+				}
+			}
+			.fb-details{
+				margin-top: 1em;
+				margin-bottom: 1em;
+				span:first-child{
+					display: inline-block;
+					width: 12%;
+					a:focus, .btn:focus{
+                        outline: none;
+                    }
+					.btn{
+						border-radius: 50%;
+					    font-family: Architects Daughter,cursive;
+					    font-weight: 800;
+					    background-color: #fff;
+					    border-color: #fff;
+					    color: #283593;
+					    font-size: 14px;
+					}
+				}
+				span:nth-child(2){
+					color: #fff;
+					display: inline-block;
+					width: 88%;
+				}
+			}
+		}
+	}
 }
