@@ -112,6 +112,7 @@ class Contact extends React.Component {
 						        required
 						      />
 						    </FormGroup>
+						    {!this.state.enableButton && <p className='alert-message'>* Please fill your Name and your valid Email ID to proceed</p>}
 						    <Button 
 						      bsStyle='info'
 						      disabled ={!this.state.enableButton}

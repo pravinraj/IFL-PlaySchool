@@ -10,4 +10,154 @@
 	    color: #37474f;
 	    text-align: center;
 	}
+	.admission-content{
+		background-image: url(../img/home/bodyBack.png);
+		padding: 2em;
+		height: auto;
+	    background-size: cover;
+	    overflow: hidden;
+	    .tab-data{
+	    	#tab-container-data{
+	    		.tab-list{
+	    			ul{
+	    				li:nth-child(1){
+	    					margin-bottom: 2em;
+	    					a{
+	    						background-color: #f84828;
+	    						color: #fff;
+	    						text-align: center;
+	    					}
+	    				}
+	    				li:nth-child(2){
+	    					margin-bottom: 2em;
+	    					a{	    						
+	    						background-color: #f9800d;
+	    						color: #fff;
+	    						text-align: center;
+	    					}
+	    				}
+	    				li:nth-child(3){
+	    					margin-bottom: 2em;
+	    					a{
+	    						text-align: center;
+	    						background-color: #ffcc00;
+	    						color: #fff;
+	    					}
+	    				}
+	    				li:nth-child(4){
+	    					margin-bottom: 2em;
+	    					a{
+	    						text-align: center;
+	    						background-color: #9cca00;
+	    						color: #fff;
+	    					}
+	    				}
+	    				li:nth-child(5){
+	    					margin-bottom: 2em;
+	    					a{
+	    						text-align: center;
+	    						background-color: #00a8ff;
+	    						color: #fff;
+	    					}
+	    				}
+	    				li:hover{
+	    					width: 90%;
+	    					animation-name: tabs-hover;
+		                    animation-duration: 1s;
+		                    animation-timing-function: ease;
+		                    animation-iteration-count: 1;
+		                    @keyframes tabs-hover{
+		                    	from{
+		                            width: 100%;
+		                        }
+		                        to{
+		                        	width: 90%;
+		                        }
+		                    }
+	    				}
+	    			}
+	    		}
+	    		.tab-list-content{
+	    			.montessori-content{
+	    				ul{
+	    					list-style-type: square;
+	    					color: #37474f;
+	    					font-family: "Comic Sans MS", cursive, sans-serif;	
+	    					li{
+	    						margin-bottom: 0.5em;
+	    					}
+	    				}
+	    				.list-style-contents{
+	    					img{
+	    						display: inline-block;
+	    					}
+	    					span{
+	    						margin-left: 0.3em;
+	    					}
+	    				}
+	    				padding: 0;
+	    				p{
+	    					color: #37474f;
+	    					font-family: "Comic Sans MS", cursive, sans-serif;	    					
+	    				}
+	    				p:nth-child(1){
+	    					font-size: 14px;	    				
+	    				}	    				
+	    				p:nth-child(2), .areas-of-development{
+	    					margin-top: 1em;
+	    					font-size: 14px;
+	    					font-weight: 600;
+	    				}	    				
+	    			}
+	    			.play-gym-content{
+	    				padding: 0;
+	    				ul{
+	    					list-style-type: square;
+	    					color: #37474f;
+	    					font-family: "Comic Sans MS", cursive, sans-serif;	
+	    					li{
+	    						margin-bottom: 0.5em;
+	    					}
+	    				}
+	    			}
+	    			.day-care-content, .after-school-activities-content,.me-time-content{
+	    				padding: 0;
+	    				ul{
+	    					list-style-type: square;
+	    					color: #37474f;
+	    					font-family: "Comic Sans MS", cursive, sans-serif;	
+	    					li{
+	    						margin-bottom: 0.5em;
+	    					}
+	    				}
+	    			}	    			
+	    		}
+	    	}
+	    }
+	    .admission-details{
+	    	p{
+	    		font-size: 14px;
+	    		font-family: "Comic Sans MS", cursive, sans-serif;
+	    		text-align: center;
+    			font-weight: 600;
+    			span{
+    				color: #1976d2;
+				    font-style: italic;
+				    cursor: pointer;
+    			}
+    			span:hover{
+    				font-size: 16px;
+    			}
+	    	}
+	    	p:nth-child(2){
+	    		margin-top: 1em;
+	    	}
+	    }
+	    .form-details{
+	    	a{
+	    		font-size: 12px;
+	    		font-style: italic;
+	    	}
+	    }
+	}
 }

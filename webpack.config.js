@@ -1,5 +1,5 @@
-
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: __dirname+'./app/index.html',
   filename:'index.html',
@@ -13,6 +13,16 @@ module.exports={
       path:'./app',
       filename: './index.js',
    },
+
+   plugins:[
+      new CopyWebpackPlugin([{ from: './app/docs/', to: 'doc/' }],{
+        ignore: [
+            // Doesn't copy any files with a txt extension    
+            '*.txt'
+        ],
+        copyUnmodified: true
+    })
+   ],
   
    devServer: {
       inline: true,
