@@ -1,9 +1,15 @@
+@font-face {
+    font-family: fontoddzFont;
+    src: url(../fonts/comic-sans.woff);
+}
+
+
 .after-school-activities-wrapper{
 	background: url(../img/home/home-special.png);
 	padding: 0;
 	.after-school-activities-title{
 		font-size: 24px;
-	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    font-family: fontoddzFont, cursive, sans-serif;
 	    line-height: 2;
 	    margin-top: 1em;
 	    border-bottom: 1px solid #cfd8dc;
@@ -20,7 +26,7 @@
 			p{
 				text-align: justify;
 			    color: #fff;
-			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
 			    line-height: 2;
 			}
 			.after-school-activities-list-type{
@@ -37,14 +43,14 @@
 			   	width: 86%;
 			   	text-align: justify;
 			    color: #fff;
-			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
 			    line-height: 2;
 			}
 		}
 		.after-school-activities-gallery{
 			.after-school-activities-gallery-title{
 				font-size: 20px;
-			    font-family: "Comic Sans MS", cursive, sans-serif;
+			    font-family: fontoddzFont, cursive, sans-serif;
 			    line-height: 2;
 			    margin-top: 1em;
 			    color: #fff;

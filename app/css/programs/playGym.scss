@@ -1,9 +1,14 @@
+@font-face {
+    font-family: fontoddzFont;
+    src: url(../fonts/comic-sans.woff);
+}
+
 .play-gym-wrapper{
 	background: url(../img/home/home-special.png);
 	padding: 0;
 	.play-gym-title{
 		font-size: 24px;
-	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    font-family: fontoddzFont, cursive, sans-serif;
 	    line-height: 2;
 	    margin-top: 1em;
 	    border-bottom: 1px solid #cfd8dc;
@@ -20,14 +25,14 @@
 	    	p{
 				text-align: justify;
 			    color: #fff;
-			    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			    font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
 			    line-height: 2;
 			}
 	    }
 	    .play-gym-gallery{
 	    	.play-gym-gallery-title{
 	    		font-size: 20px;
-			    font-family: "Comic Sans MS", cursive, sans-serif;
+			    font-family: fontoddzFont, cursive, sans-serif;
 			    line-height: 2;
 			    margin-top: 1em;
 			    color: #fff;

@@ -1,9 +1,14 @@
+@font-face {
+    font-family: fontoddzFont;
+    src: url(../fonts/comic-sans.woff);
+}
+
 .admission-wrapper{
 	background: url(../img/home/home-special.png);
 	padding: 0;
 	.admission-title{
 		font-size: 24px;
-	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    font-family: fontoddzFont, cursive, sans-serif;
 	    line-height: 2;
 	    margin-top: 1em;
 	    border-bottom: 1px solid #cfd8dc;
@@ -82,7 +87,7 @@
 	    				ul{
 	    					list-style-type: square;
 	    					color: #37474f;
-	    					font-family: "Comic Sans MS", cursive, sans-serif;	
+	    					font-family: fontoddzFont, cursive, sans-serif;	
 	    					li{
 	    						margin-bottom: 0.5em;
 	    					}
@@ -98,7 +103,7 @@
 	    				padding: 0;
 	    				p{
 	    					color: #37474f;
-	    					font-family: "Comic Sans MS", cursive, sans-serif;	    					
+	    					font-family: fontoddzFont, cursive, sans-serif;	    					
 	    				}
 	    				p:nth-child(1){
 	    					font-size: 14px;	    				
@@ -114,7 +119,7 @@
 	    				ul{
 	    					list-style-type: square;
 	    					color: #37474f;
-	    					font-family: "Comic Sans MS", cursive, sans-serif;	
+	    					font-family: fontoddzFont, cursive, sans-serif;	
 	    					li{
 	    						margin-bottom: 0.5em;
 	    					}
@@ -125,7 +130,7 @@
 	    				ul{
 	    					list-style-type: square;
 	    					color: #37474f;
-	    					font-family: "Comic Sans MS", cursive, sans-serif;	
+	    					font-family: fontoddzFont, cursive, sans-serif;	
 	    					li{
 	    						margin-bottom: 0.5em;
 	    					}

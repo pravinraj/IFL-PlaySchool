@@ -72,6 +72,7 @@ class App extends React.Component {
 	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/playgym'>Play Gym</NavLink></MenuItem>
 	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/post-school-activities'>Post School Activities</NavLink></MenuItem>
 	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/me-time'>Me time</NavLink></MenuItem>
+	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/summar-camp'>Summar Camp</NavLink></MenuItem>
 								</NavDropdown>
 								{/*<NavItem><NavLink exact activeClassName='activeNav' to='/submit'>About</NavLink></NavItem>*/}
 								

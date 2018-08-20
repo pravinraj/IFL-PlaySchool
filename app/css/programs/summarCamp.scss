@@ -1,0 +1,25 @@
+@font-face {
+    font-family: fontoddzFont;
+    src: url(../fonts/comic-sans.woff);
+}
+
+
+.summar-camp-wrapper{	
+	padding: 0;
+	background: url(../img/home/home-special.png);
+	.summar-camp-title{
+		font-size: 24px;
+	    font-family: fontoddzFont, cursive, sans-serif;
+	    line-height: 2;
+	    margin-top: 1em;
+	    border-bottom: 1px solid #cfd8dc;
+	    color: #37474f;
+	    text-align: center;
+	}
+	.summar-camp-content{
+		.comingsoon-img img{
+			margin: 0 auto;
+			width: 50%;
+		}
+	}
+}

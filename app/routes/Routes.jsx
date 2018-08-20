@@ -9,6 +9,7 @@ import DayCare from '../container/DayCare.jsx';
 import Montessori from '../container/Montessori.jsx';
 import PlayGym from '../container/PlayGym.jsx';
 import AfterSchoolActivities from '../container/AfterSchoolActivities.jsx';
+import SummarCamp from '../container/SummarCamp.jsx';
 import MeTime from '../container/MeTime.jsx';
 
 
@@ -23,6 +24,8 @@ class Routes extends React.Component {
 		      	<Route  exact path="/programs/playgym" component={PlayGym} history={history}/>
 		      	<Route  exact path="/programs/post-school-activities" component={AfterSchoolActivities} history={history}/>
 		      	<Route  exact path="/programs/me-time" component={MeTime} history={history}/>
+		      	<Route  exact path="/programs/summar-camp" component={SummarCamp} history={history}/>
+
 
 		      	<Route  exact path="/events" component={Events} history={history}/>
 		      	<Route  exact path="/admissions" component={Admissions} history={history}/>

@@ -19,7 +19,7 @@ class About extends React.Component {
 				  <p>Who We Are</p>
 				</Col>
 				<Col xs={12} className='about-contents'>
-					<Col xs={6}><Image src="../img/about.png" responsive rounded /></Col>
+					<Col xs={6}><Image src="../img/about-5.png" responsive rounded /></Col>
 					<Col xs={6} className='about-contents-data'>
 						<p>Fun Toddz located at Perambur, Chennai is a professionally managed child center operational from 8am to 8pm on all days of the week. We provide the best care of your child by giving them unconditional love nurture them and guide them through their early years.</p>
 						<p>At Fun Toddz, a child’s safety and hygiene is given the utmost importance. The early years of a child are very important in terms of teaching them right values and early learning. We patiently guide them through the journey at Fun Toddz.</p>

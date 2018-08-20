@@ -1,3 +1,8 @@
+@font-face {
+    font-family: fontoddzFont;
+    src: url(../fonts/comic-sans.woff);
+}
+
 .home-wrapper{
 	padding: 0;
 	.slideshow{
@@ -21,7 +26,7 @@
                 animation-iteration-count: 1;
     			p{
     				color: #fff;
-    				font-family: "Lucida Console", Monaco, monospace;
+    				font-family: fontoddzFont, Monaco, monospace;
     				font-weight: 600;
                     font-size: 2.5em;
                     margin-bottom: 0;
@@ -42,7 +47,7 @@
                 animation-iteration-count: 1;
                 p{
                     color: #fff;
-                    font-family: "Lucida Console", Monaco, monospace;
+                    font-family: fontoddzFont, Monaco, monospace;
                     font-weight: 600;
                     margin-bottom: 0;
                     font-size: 2em;
@@ -67,7 +72,7 @@
                 animation-iteration-count: 1;
                 p{
                     color: #fff;
-                    font-family: "Lucida Console", Monaco, monospace;
+                    font-family: fontoddzFont, Monaco, monospace;
                     font-weight: 600;
                     margin-bottom: 0;
                     font-size: 1.2em;
@@ -186,14 +191,14 @@
                 text-align: center;
                 font-weight: 700;
                 color: #fff;
-                font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
                 margin-top: 1em;
             }
             p:last-child{
                 display: block;
                 text-align: center;
                 color: #fff;
-                font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
             }
         }
         .play-school-programmes{
@@ -216,20 +221,20 @@
                     font-weight: 700;
                     text-align: center;
                     color: #8d6e63;
-                    font-family: Architects Daughter,cursive;
+                    font-family: fontoddzFont,cursive;
                     margin-top: 1em;
                    }            
                    p:nth-child(2){
                     font-size: 14px;
                     text-align: center;
                     color: #827717;
-                    font-family: Architects Daughter,cursive;
+                    font-family: fontoddzFont,cursive;
                     margin-top: 1em;
                    }
                    button{
                     background-color: #9e9d24;
                     border-color: #9e9d24;
-                    font-family: Architects Daughter,cursive;
+                    font-family: fontoddzFont,cursive;
                    }
                    button:hover, button:focus{
                     animation-name: offer-button-hover;
@@ -254,7 +259,7 @@
         div:first-child{
             p:first-child{
                 color: #795548;
-                font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
                 font-size: 40px;
                 font-weight: 700;
                 margin-bottom: 4px;
@@ -270,7 +275,7 @@
             button{
                 margin-top: 4em;
                 margin-bottom: 1em;                
-                font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
             }
             button:hover, button:focus{                
                 animation-name: enroll-contact;
@@ -298,7 +303,7 @@
             p:first-child{
                 color: #fff;
                 font-size: 33px;
-                font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
             }
             .program-list{
                 padding: 0;
@@ -306,7 +311,7 @@
                     padding: 0;
                     button{
                         border-radius: 50%;
-                        font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                        font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
                     }
                     button:hover, button:focus{
                         animation-name: program-list;
@@ -329,7 +334,7 @@
                     p{
                         color: #449d44;
                         font-size: 14px;
-                        font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                        font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
                         font-weight: 600;
                     }
                 }
@@ -339,7 +344,7 @@
             p:first-child{
                 color: #fff;
                 font-size: 33px;
-                font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
             }
             .social-media-link{
                 div{
@@ -348,7 +353,7 @@
                     }
                     button{
                         border-radius: 50%;
-                        font-family: Architects Daughter,cursive;
+                        font-family: fontoddzFont,cursive;
                         font-weight: 800;
                         background-color:#fff;
                         border-color: #fff;
@@ -390,7 +395,7 @@
             p{
                 color: #fff;
                 font-size: 33px;
-                font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
             }
             .mail-us{
                 span:nth-child(1){
@@ -402,7 +407,7 @@
                 }
                 span:nth-child(2){
                     color: #fff;
-                    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                    font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
                     font-size: 14px;
                 }
             }
@@ -418,7 +423,7 @@
                 }
                 span:nth-child(2){
                     color: #fff;
-                    font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+                    font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
                     font-size: 14px;
                     display: inline-block;
                     width: 80%;

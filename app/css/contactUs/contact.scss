@@ -1,9 +1,14 @@
+@font-face {
+    font-family: fontoddzFont;
+    src: url(../fonts/comic-sans.woff);
+}
+
 .contact-us-wrapper{
 	background: url(../img/home/home-special.png);
 	padding: 0;
 	.contact-us-title{
 		font-size: 24px;
-	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    font-family: fontoddzFont, cursive, sans-serif;
 	    line-height: 2;
 	    margin-top: 1em;
 	    border-bottom: 1px solid #cfd8dc;
@@ -16,7 +21,7 @@
 		background-size: cover;
 		.contact-us-content-title{			
 			color: #fff;
-			font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+			font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
 			text-align: center;
 			margin-top: 1em;
 			p:first-child{
@@ -49,7 +54,7 @@
 			.alert-message{
 				text-align: center;
     			color: #d20000;
-    			font-family: 'Architects Daughter', cursive, 'Open Sans', 'open_sansregular', sans-serif;
+    			font-family: fontoddzFont, cursive, 'Open Sans', 'open_sansregular', sans-serif;
 			}			
 			.btn {
 				display: block;
@@ -147,7 +152,7 @@
 					}
 					.btn{
 						border-radius: 50%;
-					    font-family: Architects Daughter,cursive;
+					    font-family: fontoddzFont,cursive;
 					    font-weight: 800;
 					    background-color: #fff;
 					    border-color: #fff;
