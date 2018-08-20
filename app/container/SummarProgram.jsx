@@ -4,7 +4,7 @@ import {
 	Image
 } from 'react-bootstrap';
 
-class SummarCamp extends React.Component {
+class SummarProgram extends React.Component {
 	constructor(props){
 		super(props);
 		this.state={};
@@ -12,11 +12,11 @@ class SummarCamp extends React.Component {
 
 	render(){
 		return(
-			<Col xs={12} className='summar-camp-wrapper'>
-				<Col xs={12} className='summar-camp-title'>
+			<Col xs={12} className='summar-program-wrapper'>
+				<Col xs={12} className='summar-program-title'>
 					<p>Summar Programs</p>
 				</Col>
-				<Col xs={12} className='summar-camp-content'>
+				<Col xs={12} className='summar-program-content'>
 					<Col xs={12} className='comingsoon-img'><Image src="../img/programs/comingsoon.gif" responsive rounded /></Col>
 				</Col>
 			</Col>
@@ -24,4 +24,4 @@ class SummarCamp extends React.Component {
 	}
 }
 
-export default SummarCamp;
+export default SummarProgram;
