@@ -17,7 +17,7 @@ class SummarProgram extends React.Component {
 					<p>Summar Programs</p>
 				</Col>
 				<Col xs={12} className='summar-program-content'>
-					<Col xs={12} className='comingsoon-img'><Image src="../img/programs/comingsoon.gif" responsive rounded /></Col>
+					<Col xs={12} className='comingsoon-img'><Image src="../img/programs/comingsoon-1.gif" responsive rounded /></Col>
 				</Col>
 			</Col>
 		);

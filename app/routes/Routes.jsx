@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link,NavLink } from "react-router-dom";
+import { HashRouter as Router, Route, Link,NavLink } from "react-router-dom";
 import Home from '../container/Home.jsx';
 import About from '../container/About.jsx';
 import Events from '../container/Events.jsx';

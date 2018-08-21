@@ -7,7 +7,7 @@ import {
  NavDropdown,
  MenuItem
 } from 'react-bootstrap';
- import { BrowserRouter as Router, Route, Link,NavLink } from "react-router-dom";
+ import { HashRouter as Router, Route, Link,NavLink } from "react-router-dom";
  import Routes from './routes/Routes.jsx';
 
 
@@ -32,10 +32,6 @@ class App extends React.Component {
      this.setState({ isOpen: false })
   }
 
-  /* navigate(){
-   	this.props.history.push('/');
-   }*/
-
 	render() {
 		console.log('this.state!!!!!! ', this.state.isOpen);
 		return (
@@ -44,7 +40,7 @@ class App extends React.Component {
 					<p>Call Us Now! <span>9791167467, 9962983672</span></p>
 				</Col>
 				<Col xs={12} className='app-header-nav-bar'>
-				<Router>
+				<Router basename='ifl'>
 				    <div>
 					<Navbar inverse collapseOnSelect className='app-nav-bar'>
 						<Navbar.Header>
@@ -64,8 +60,7 @@ class App extends React.Component {
 								  onMouseEnter = { this.handleOpen }
 						          onMouseLeave = { this.handleClose }
 						          open={this.state.isOpen}
-						          noCaret
-						          
+						          noCaret						          
 								  eventKey={3} title="Programs" id="basic-nav-dropdown">
 									<MenuItem className='dropdown-content' eventKey={3.1}><NavLink exact activeClassName='activeNav' to='/programs/daycare'>Day Care</NavLink></MenuItem>
 	      							<MenuItem className='dropdown-content' eventKey={3.2}><NavLink exact activeClassName='activeNav' to='/programs/montessori'>Montessori</NavLink></MenuItem>
