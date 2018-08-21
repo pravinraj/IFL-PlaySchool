@@ -40,7 +40,7 @@ class App extends React.Component {
 					<p>Call Us Now! <span>9791167467, 9962983672</span></p>
 				</Col>
 				<Col xs={12} className='app-header-nav-bar'>
-				<Router basename='ifl'>
+				<Router basename='/ifl'>
 				    <div>
 					<Navbar inverse collapseOnSelect className='app-nav-bar'>
 						<Navbar.Header>
