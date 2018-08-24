@@ -24,7 +24,7 @@ class Routes extends React.Component {
 		      	<Route  exact path="/programs/playgym" component={PlayGym} history={history}/>
 		      	<Route  exact path="/programs/post-school-activities" component={AfterSchoolActivities} history={history}/>
 		      	<Route  exact path="/programs/me-time" component={MeTime} history={history}/>
-		      	<Route  exact path="/programs/summar-camp" component={SummarProgram} history={history}/>
+		      	<Route  exact path="/programs/summer-program" component={SummarProgram} history={history}/>
 
 
 		      	<Route  exact path="/events" component={Events} history={history}/>

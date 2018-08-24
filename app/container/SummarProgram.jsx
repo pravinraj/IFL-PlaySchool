@@ -14,7 +14,7 @@ class SummarProgram extends React.Component {
 		return(
 			<Col xs={12} className='summar-program-wrapper'>
 				<Col xs={12} className='summar-program-title'>
-					<p>Summar Programs</p>
+					<p>Summer Programs</p>
 				</Col>
 				<Col xs={12} className='summar-program-content'>
 					<Col xs={12} className='comingsoon-img'><Image src="../img/programs/comingsoon-1.gif" responsive rounded /></Col>

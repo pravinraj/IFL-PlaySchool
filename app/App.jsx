@@ -48,7 +48,7 @@ class App extends React.Component {
 						      <a href='#' className='app-logo'>
 						      	<img src='../img/logo-3.png' className='logo-img'/>
 						      </a>
-						      <span className='fun-toddz'>Fun-Toddz</span>
+						      <span className='fun-toddz'>Fun Toddz</span>
 						    </Navbar.Brand>
 						    <Navbar.Toggle />
 						</Navbar.Header>

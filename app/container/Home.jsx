@@ -47,7 +47,7 @@ class Home extends React.Component {
 		        <Col xs={12} className='home-special'>
 		        	<Col xs={12} className='home-special-offer'>
 		        		<p>What We Offer At Fun Toddz</p>
-		        		<p>At Fun Toddz, we strive to offer a full range of educational, care and enrichment options for young families. These include time-customizable care for toddlers, Play Gym and Montessori-based preschool, as well as after-hours care and 'Me time' for parents at secured environment. Our goal is to provide a welcoming and academically stimulating environment that feels like a home-away-from home.</p>
+		        		<p>At Fun Toddz, we strive to offer a full range of education, care and enrichment options for young families. These include time-customizable care for toddlers, Play Gym and Montessori-based preschool, as well as after-hours care and 'Me time' for parents at secured environment. Our goal is to provide a welcoming and academically stimulating environment that feels like a home-away-from home.</p>
 		        	</Col>
 		        	<Col xs={12} className='play-school-programmes'>
 		        		<Col xs={12} md={4} sm={12} lg={4}>
@@ -89,7 +89,7 @@ class Home extends React.Component {
 			        		<Thumbnail src='../img/home/summar-camp.png' alt='242x200'>
 				        		<p>Summer Programs</p>
 				        		<p>Are your children interested in coding? Archeology? Puzzles? We offers dozens of summer programs to feed any child’s wildest interests. You can choose 2-day, 3-day or 5-day programs as well as half-day (8:30 am – 12 noon), full-day or extended days (7:30 am – 6:00 pm).</p>
-				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/programs/summar-camp')}}>LEARN MORE >> </Button>
+				          		<Button bsStyle='primary' onClick={()=>{this.props.history.push('/programs/summer-program')}}>LEARN MORE >> </Button>
 				      		</Thumbnail>
 			        	</Col>
 		        	</Col>
