@@ -4,7 +4,7 @@ import {
 	Image
 } from 'react-bootstrap';
 
-class SummarProgram extends React.Component {
+class SummerProgram extends React.Component {
 	constructor(props){
 		super(props);
 		this.state={};
@@ -24,4 +24,4 @@ class SummarProgram extends React.Component {
 	}
 }
 
-export default SummarProgram;
+export default SummerProgram;

@@ -108,7 +108,7 @@ class Admissions extends React.Component {
 						<Col xs={6} sm={6} lg={3} md={3}><a href='doc/Fun_Toddz_Admission_Form.pdf'  target='_blank'>Admission-form</a></Col>
 						<Col xs={6} sm={6} lg={3} md={3}><a href='doc/Fun_Toddz_Enquiry_Form.pdf'  target='_blank'>Enquiry-form</a></Col>
 						<Col xs={6} sm={6} lg={3} md={3}><a href='doc/Fun_Toddz_prekg_syllabus.pdf'  target='_blank'>Montessori-syllabus</a></Col>
-						<Col xs={6} sm={6} lg={3} md={3}><a href='doc/FT1.pdf'  target='_blank'>Pamphlet</a></Col>
+						<Col xs={6} sm={6} lg={3} md={3}><a href='doc/FT1.pdf'  target='_blank'>E-Brochure</a></Col>
 					</Col>
 				</Col>				
 			</Col>
