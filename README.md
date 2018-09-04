@@ -1,2 +1,2 @@
 # IFL-PlaySchool
-Node-React application for IFL-Play school
+Node-React application for Fun Toddz
